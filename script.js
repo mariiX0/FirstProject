@@ -11,6 +11,7 @@
       operator = op;
       previousInput = currentInput;
       currentInput = '';
+      document.getElementById('display').value = currentInput;
     }
 
     function calculate() {
